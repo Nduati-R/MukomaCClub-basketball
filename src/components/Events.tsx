@@ -32,7 +32,7 @@ export const Events = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Upcoming <span className="text-primary">Events</span>
+            Upcoming <span className="text-primary drop-shadow-[0_0_20px_rgba(244,207,107,0.4)]">Events</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Be part of history as we launch the most exciting basketball league in the region.

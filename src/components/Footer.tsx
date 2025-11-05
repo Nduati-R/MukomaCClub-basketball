@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import sielLogo from "@/assets/siel-logo-yellow.png";
 
 export const Footer = () => {
   const socialLinks = [
@@ -9,13 +10,12 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className="bg-background border-t border-border py-12">
+    <footer className="bg-background border-t border-primary/20 py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="text-2xl font-bold mb-4">
-              <span className="text-primary">HOOP</span>
-              <span className="text-secondary">NATION</span>
+            <div className="mb-4">
+              <img src={sielLogo} alt="SIEL Basketball League" className="h-12 w-auto" />
             </div>
             <p className="text-muted-foreground">
               Building the future of basketball, one game at a time.
@@ -61,8 +61,8 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} HoopNation. All rights reserved.</p>
+        <div className="border-t border-primary/20 pt-8 text-center text-muted-foreground">
+          <p>&copy; {new Date().getFullYear()} SIEL Basketball League. All rights reserved.</p>
         </div>
       </div>
     </footer>

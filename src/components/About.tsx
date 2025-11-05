@@ -24,11 +24,11 @@ export const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            About <span className="text-primary">HoopNation</span>
+            About <span className="text-primary drop-shadow-[0_0_20px_rgba(244,207,107,0.4)]">SIEL</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We're launching a revolutionary basketball league that combines competitive excellence 
-            with community impact, creating opportunities for athletes to shine.
+            The Sports Innovation and Entertainment League (SIEL) is revolutionizing basketball in Kenya. 
+            We combine elite competition with community empowerment, creating opportunities for athletes to excel.
           </p>
         </div>
 

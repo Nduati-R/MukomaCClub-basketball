@@ -11,7 +11,7 @@ export const Newsletter = () => {
             <Mail className="w-8 h-8 text-primary" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Stay in the <span className="text-primary">Loop</span>
+            Stay in the <span className="text-primary drop-shadow-[0_0_20px_rgba(244,207,107,0.4)]">Loop</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
             Be the first to know about league updates, ticket sales, and exclusive events.

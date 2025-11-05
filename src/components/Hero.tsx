@@ -18,13 +18,13 @@ export const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 z-10 text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          Elevate Your Game
-          <span className="block bg-gradient-accent bg-clip-text text-transparent mt-2">
-            Join The Revolution
+          <span className="text-foreground">Welcome to</span>
+          <span className="block text-primary mt-2 drop-shadow-[0_0_30px_rgba(244,207,107,0.5)]">
+            SIEL Basketball League
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Where passion meets performance. Experience basketball like never before with our upcoming premier league.
+          Where legends are made. Join Kenya's most exciting basketball league and be part of something extraordinary.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="text-lg group">
