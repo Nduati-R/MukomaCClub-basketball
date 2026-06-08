@@ -16,7 +16,7 @@ export const Footer = () => {
               <span className="font-display text-3xl font-bold text-gold">CCSA</span>
             </Link>
             <p className="text-background/70 mb-5 text-sm leading-relaxed">
-              Kenya's premier country club and sports academy — building champions on and off the field.
+              Train Hard. Play Hard. Live Well. Kenya's premier basketball academy, gym, and multi-sport facility.
             </p>
             <div className="flex gap-3">
               {[Instagram, Facebook, Twitter].map((Icon, i) => (
@@ -34,6 +34,7 @@ export const Footer = () => {
               <li><Link to="/about" className="hover:text-gold transition-colors">About</Link></li>
               <li><a href="/#facilities" className="hover:text-gold transition-colors">Facilities</a></li>
               <li><a href="/#academy" className="hover:text-gold transition-colors">Academy</a></li>
+              <li><a href="/#gym" className="hover:text-gold transition-colors">Gym</a></li>
               <li><a href="/#events" className="hover:text-gold transition-colors">Events</a></li>
               <li><a href="/#membership" className="hover:text-gold transition-colors">Membership</a></li>
             </ul>

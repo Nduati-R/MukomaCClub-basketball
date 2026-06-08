@@ -3,9 +3,9 @@ import { SectionHeading } from "./SectionHeading";
 import { useReveal } from "@/hooks/use-reveal";
 
 const events = [
-  { date: "Jul 15", year: "2026", name: "Annual Junior Tennis Championship", desc: "A flagship tournament showcasing East Africa's rising tennis stars." },
-  { date: "Aug 03", year: "2026", name: "Open Swimming Gala", desc: "Compete across age groups in our Olympic-grade pool facility." },
-  { date: "Aug 20", year: "2026", name: "Football 5-a-side Tournament", desc: "Fast-paced 5-a-side action with teams from across the region." },
+  { date: "Jul 20", year: "2026", name: "Inter-School Basketball Tournament", desc: "Top schools battle it out on our flagship courts." },
+  { date: "Aug 10", year: "2026", name: "3x3 Street Ball Challenge", desc: "Fast, raw and electric — half-court hoops at its finest." },
+  { date: "Aug 28", year: "2026", name: "Gym Open Day & Free Trial", desc: "Tour the facility, try the equipment, meet our trainers." },
 ];
 
 export const Events = () => {

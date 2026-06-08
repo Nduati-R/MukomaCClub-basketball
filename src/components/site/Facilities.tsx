@@ -4,19 +4,19 @@ import { useReveal } from "@/hooks/use-reveal";
 
 const facilities = [
   {
-    name: "Swimming Pool",
-    desc: "Olympic-grade lanes for training, leisure, and competitive galas.",
+    name: "Basketball Courts",
+    desc: "Full-size, floodlit, with professional markings.",
+    img: "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=800&q=80",
+  },
+  {
+    name: "Gym & Fitness Centre",
+    desc: "State-of-the-art equipment, personal trainers available.",
+    img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+  },
+  {
+    name: "Multi-Sport Courts",
+    desc: "Football, tennis, swimming and more.",
     img: "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=800&q=80",
-  },
-  {
-    name: "Tennis Courts",
-    desc: "Pristine clay and hard courts with floodlit evening play.",
-    img: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80",
-  },
-  {
-    name: "Football Pitch",
-    desc: "Full-size, FIFA-standard turf for matches and academy training.",
-    img: "https://images.unsplash.com/photo-1556056504-5c7696c4c28d?w=800&q=80",
   },
 ];
 
