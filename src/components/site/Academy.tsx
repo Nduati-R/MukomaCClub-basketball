@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 import { useReveal } from "@/hooks/use-reveal";
 
 const features = [
-  "Expert Coaching",
-  "Structured Training Programs",
+  "Professional Coaching Staff",
+  "Age-Group Training Programs",
   "Player Registration & Profiles",
-  "Events & Tournaments",
+  "Tournaments & Leagues",
 ];
 
 export const Academy = () => {
@@ -17,20 +17,20 @@ export const Academy = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="overflow-hidden rounded-lg aspect-[4/5] order-2 lg:order-1">
             <img
-              src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80"
-              alt="Academy training"
+              src="https://images.unsplash.com/photo-1519861531473-9200262188bf?w=800&q=80"
+              alt="Basketball academy training"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="order-1 lg:order-2">
             <span className="inline-block text-xs font-semibold uppercase tracking-[0.25em] text-gold mb-4">
-              Sports Academy
+              Basketball Academy
             </span>
             <h2 className="font-display text-4xl md:text-5xl font-semibold text-forest leading-tight mb-6">
-              Training the Next Generation of Champions
+              Developing Kenya's Next Basketball Stars
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Our academy programs span football, tennis, swimming, and more — with professional coaches, structured schedules, and pathways to national and international competition.
+              From grassroots to elite — our structured programs develop skills, discipline, and competitive edge. Coached by seasoned professionals with national and international experience.
             </p>
             <ul className="space-y-3 mb-8">
               {features.map((f) => (

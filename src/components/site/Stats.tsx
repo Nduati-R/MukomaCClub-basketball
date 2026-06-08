@@ -1,11 +1,11 @@
-import { Building2, Users, Trophy, Calendar } from "lucide-react";
+import { Dribbble, Users, Trophy, CalendarDays } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 
 const stats = [
-  { icon: Building2, value: "12+", label: "World-Class Facilities" },
-  { icon: Users, value: "500+", label: "Academy Players" },
-  { icon: Trophy, value: "20+", label: "Years of Excellence" },
-  { icon: Calendar, value: "100+", label: "Annual Events" },
+  { icon: Dribbble, value: "3", label: "Full-Size Basketball Courts" },
+  { icon: Users, value: "300+", label: "Academy Players" },
+  { icon: Trophy, value: "15+", label: "Championship Titles" },
+  { icon: CalendarDays, value: "7 Days", label: "Open Every Week" },
 ];
 
 export const Stats = () => {
