@@ -1,22 +1,24 @@
-import { Navigation } from "@/components/Navigation";
-import { Hero } from "@/components/Hero";
-import { About } from "@/components/About";
-import { Stats } from "@/components/Stats";
-import { Events } from "@/components/Events";
-import { Partners } from "@/components/Partners";
-import { Newsletter } from "@/components/Newsletter";
-import { Footer } from "@/components/Footer";
+import { Navbar } from "@/components/site/Navbar";
+import { Hero } from "@/components/site/Hero";
+import { Stats } from "@/components/site/Stats";
+import { Facilities } from "@/components/site/Facilities";
+import { Academy } from "@/components/site/Academy";
+import { Events } from "@/components/site/Events";
+import { Membership } from "@/components/site/Membership";
+import { Testimonials } from "@/components/site/Testimonials";
+import { Footer } from "@/components/site/Footer";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Navigation />
+      <Navbar />
       <Hero />
       <Stats />
-      <About />
+      <Facilities />
+      <Academy />
       <Events />
-      <Partners />
-      <Newsletter />
+      <Membership />
+      <Testimonials />
       <Footer />
     </div>
   );
